@@ -1,1 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background: rgb(36,85,192);
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(36,85,192,1) 30%, rgba(11,20,32,1) 80%);
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    padding: 2em 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.carton {
+    padding: 0.5em 0;
+    background-color: #9e1c23;
+    text-align: center;
+    width: 200px;
+    height: 160px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+
+.numbersContainer {
+    height: 80%;
+    display: grid;
+    padding: 1em auto;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+}
+.numbers {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: 2.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carton h2 {
+    color: white;
+    height: 20%;
+    margin-bottom: 0.5em;
+}
+
+.number {
+    color: rgb(117, 114, 114);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.numberMatch {
+    background-color: #9e1c23;
+    text-decoration: line-through;
+}
+
+#bombo {
+    background: rgb(223,227,235);
+    border-radius: 50%;
+    border: 2px solid black;
+    background: radial-gradient(circle, rgba(223,227,235,1) 5%, rgba(11,20,32,1) 80%);  
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body {
+    width: 50em;
+    height: 13em;
+    border: 1.5px solid white;
+}
+
+#nSacados {
+    display: grid;
+    grid-template-columns: repeat(22, auto);
+    grid-template-rows: repeat(5, auto);
+    justify-content: flex-start;
+    padding: 0.5em 1em;
+}
